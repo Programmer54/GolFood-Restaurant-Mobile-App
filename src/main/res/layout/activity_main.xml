@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:backgroundTintMode="screen"
+    android:background="@drawable/back"
+    tools:ignore="MissingClass">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="GölFood"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/comfos"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eposta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Eposta"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                app:endIconMode="password_toggle"
+                app:startIconDrawable="@drawable/ic_baseline_security_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Şifre"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/hata"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_giris"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Giriş Yap"
+        android:textColor="@color/white" />
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_kayit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Kayıt Ol"
+        android:textColor="@color/white" />
+</LinearLayout>

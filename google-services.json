@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851956549770",
+    "project_id": "golfood-290c0",
+    "storage_bucket": "golfood-290c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851956549770:android:ddb9effa5b6b6bea600573",
+        "android_client_info": {
+          "package_name": "com.example.golfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851956549770-egt8gi2enm7bv93carmnko767cb72hb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW6CxzxLuwqqldsVS5rzJKsP5uWaDa1As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851956549770-egt8gi2enm7bv93carmnko767cb72hb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
